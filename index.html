@@ -1,0 +1,590 @@
+<!--8Fg8zmKh6aHG)aLXl66R-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGN</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 53, 53);
+}
+
+        header{
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("2.png") center no-repeat;
+	background-size: cover;
+	position: relative;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.container{
+	max-width: 120rem;
+	width: 90%;
+	margin: 0 auto;
+}
+nav{
+	padding-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	font-size: 1.6rem;
+}
+
+.brand span{
+	color: crimson;
+}
+
+a{
+	text-decoration: none;
+	color: #eee;
+}
+.brand{
+	font-size: 3rem;
+	font-weight: 300;
+	transform: translateX(-100rem);
+	animation: slideIn .5s forwards;
+}
+       .part1{
+            
+     
+            padding: 10%;
+            opacity: 70%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 10%;
+            text-align: center;
+            color: rgb(202, 190, 193);
+font-size: 20px;
+            clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+            background: -webkit-linear-gradient(rgb(255, 36, 80), rgb(221, 221, 221));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+        }
+        nav ul{
+	display: flex;
+}
+
+        nav ul{
+	display: flex;
+}
+nav ul li a{
+	padding: 1rem 0;
+	margin: 0 3rem;
+	position: relative;
+	letter-spacing: 2px;
+}
+ 
+        nav ul li{
+	list-style: none;
+	transform: translateX(100rem);
+	animation: slideIn .5s forwards;
+}
+
+nav ul li:nth-child(1){
+	animation-delay: .5s;
+}
+
+nav ul li:nth-child(2){
+	animation-delay: 1s;
+}
+
+nav ul li:nth-child(3){
+	animation-delay: 1.5s;
+}
+
+nav ul li:nth-child(4){
+	animation-delay: 2s;
+}
+
+        @keyframes slideIn {
+	from{
+
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+.menu-toggle{
+	position: fixed;
+	top: 2.5rem;
+	right: 2.5rem;
+	color: #eeeeee;
+	font-size: 3rem;
+	cursor: pointer;
+	z-index: 1000;
+	display: none;
+}
+
+@media screen and (max-width: 700px){
+
+.menu-toggle{
+    display: block;
+    position: relative;
+    text-align:right;
+}
+.part1{
+    font-size: 15px;
+}
+
+nav{
+		padding-top: 0;
+		display: none;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 100vh;
+		text-align: center;
+	}
+
+	nav ul{
+		flex-direction: column;
+	}
+
+	nav ul li{
+		margin-top: 5rem;
+	}
+
+	nav ul li a{
+		margin: 0;
+		font-size: 2.5rem;
+	}
+
+	.brand{
+		font-size: 5rem;
+	}
+  
+  .overlay.menu-open,
+  nav.menu-open{
+	  display: flex;
+	  transform: scale(1);
+      opacity: 1;
+  
+   
+      
+      
+  }
+ 
+  
+}
+nav ul li a:hover{
+    
+    background: -webkit-linear-gradient(rgb(255, 36, 80), rgb(255, 123, 123));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+	transform: scaleX(1);
+}
+
+nav ul li a::before,
+nav ul li a::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: crimson;
+	left: 0;
+	transform: scaleX(0);
+	transition: all .5s;
+}
+
+nav ul li a::before{
+	top: 0;
+	transform-origin: left;
+}
+
+nav ul li a::after{
+	bottom: 0;
+	transform-origin: right;
+}
+
+.part2{
+    margin: 10%;
+    font-size: 50px;
+color: rgb(75, 73, 73);
+background: -webkit-linear-gradient(rgb(255, 36, 80), rgb(255, 123, 123));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter:grayscale(50%);
+  
+
+}
+.pap{
+  
+    font-size: 50px;
+color: rgb(75, 73, 73);
+background: -webkit-linear-gradient(rgb(255, 36, 80), rgb(255, 123, 123));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: grayscale(50%);
+  
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background:linear-gradient(#555,crimson);
+  border-radius: 50%;
+}
+.pp{
+color: crimson;
+font-size: 20px;
+
+}
+
+.square{
+
+transform: rotate(-45deg);
+
+width: 105px;
+
+height: 105px;
+
+margin-right: 2px;
+
+border: 2px solid crimson;
+background: transparent;
+border-top:2px solid transparent ;
+
+
+}
+
+hr{
+  border-color:rgb(201, 64, 92);
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+background: transparent;
+  height: 300px; /* Should be removed. Only for demonstration */
+  
+}
+
+input,textarea,button{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background: transparent;
+  border: 1px solid rgb(233, 75, 107);
+  width: 70%;
+  outline: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+form{
+  text-align: center;
+  color: crimson;
+}
+
+input:focus{
+  border: 1px solid greenyellow;
+}
+textarea:focus{
+  border: 1px solid greenyellow;
+}
+
+
+button:hover{
+  color: yellowgreen;
+  border: 1px solid yellowgreen;
+}
+textarea{
+  resize: none;
+  overflow:auto;
+}
+.info i{
+  padding: 20px;
+}
+.info{
+  margin: 40px;
+  padding: 20px;
+  color: rgb(206, 71, 98);
+  text-align: left;
+  font-size: 35px;
+}
+.info a:hover{
+  color: greenyellow;
+
+}
+.info i{
+  color: rgb(184, 74, 96);
+}
+
+
+
+@media screen and (max-width: 760px) {
+  .column{
+    float: none;
+    
+    text-align: center;
+    display: inline;
+  }
+
+
+}
+
+@media screen and (max-width: 569px) {
+ 
+}
+
+
+@media screen and (max-width: 410px) {
+
+}
+.menu-toggle i{
+  color:rgb(226, 49, 85);
+}
+
+.square{
+  box-shadow: 10px 10px crimson;
+}
+
+    </style>
+            
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+
+        </div>
+        <div class="overlay"></div>
+        
+    <div class="container">
+        <div data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+        <div class="circle"></div>
+        <h1 class="brand"><a href="index.html">A<span>Ss</span>igN</a></h1>
+        <nav>
+        
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+  
+    </div>
+    
+   
+<div class="part1">
+    <div data-aos="fade-down"
+    data-aos-offset="100"
+    data-aos-easing="ease-in-sine">
+    <h2>ARE YOU STUCK WITH YOUR ASSIGNMENT??....</h2>
+    <br>
+    <h3>DON'T WORRY WE ARE HERE TO HELP YOU!!....</h3>
+    <br>
+    <h2>GET YOUR ASSIGNMENT DONE...</h2>
+    </div>
+</div>
+</div>    
+</header>
+             
+
+
+<div data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+   
+
+<div class="foot">
+  <hr>
+  <div style="display:flex;float: right;margin-right: 4%;">
+    <div class="square" style="background: linear-gradient(black,transparent);">
+  </div>
+  <div class="square" style="background: linear-gradient(crimson,transparent);"></div>
+  </div>
+<div style="margin:20px;">
+  <h1 class="pap">
+    <a name="services"></a>
+   SERVICES
+  </h1>
+
+</div>
+<hr>
+<hr>
+<div style="width: 100%;margin-bottom: 20%;align-items: center;">
+<div style="width: 50%;float: left;">
+  <a href="#">
+  <div class="square" style="display:inline-block;background:linear-gradient(to right,rgb(49, 45, 45),transparent);
+  margin:10%;overflow:visible;box-shadow:10px 10px rgb(85, 75, 77);border:5px solid rgb(66, 63, 63);">
+  <h5 style="padding: 15px;">
+    SOLUTION
+  </h5>
+  <div class="circle"></div>
+  </div>
+  </a>
+  <h5 style="display:block;padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo excepturi nos
+    trum, commodi placeat unde hic, velit harum reiciendis magni dolor aspernatur? Mo
+    lestias sit consequatur magnam voluptatibus! Nesciunt, enim eius!</h5>
+    <br>
+</div>
+<div style="width: 50%;float: left;padding: 10px;">
+  <a href="#">
+  <div class="square" style="display:inline-block;background:linear-gradient(to right,rgb(49, 45, 45),transparent);margin:10%;overflow:visible;box-shadow:10px 10px rgb(85, 75, 77);border:5px solid rgb(66, 63, 63)">
+  <h5 style="padding: 15px;">
+    SOLUTION
+  </h5>
+  <div class="circle"></div>
+  </div>
+  </a>
+  <h5 style="display:block;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo excepturi nos
+    trum, commodi placeat unde hic, velit harum reiciendis magni dolor aspernatur? Mo
+    lestias sit consequatur magnam voluptatibus! Nesciunt, enim eius!</h5>
+    <br>
+</div>
+
+</div>
+
+
+</div>
+</div>
+<hr>
+<hr><hr>
+<div data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+   
+<div class="part2">
+    <div class="circle"></div>
+    <a name="about"></a>
+    <h3>About</h3>
+
+    <div class="pp">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, porro sequi iste assumenda numquam perferendis, 
+            et non impedit eius repudiandae incidunt suscipit velit deserunt! Ab sequi architecto maiores laboriosam vitae.</p>
+    </div>
+  
+</div>
+</div>
+<hr>
+<br>
+
+
+<div class="part4" name="contact">
+  <div data-aos="fade-down"
+  data-aos-offset="300"
+  data-aos-easing="ease-in-sine">
+<div class="square"></div>
+<div class="square"></div>
+<h2 class="pap" style="text-align: center;">CONTACT</h2>
+<a name="contact"></a>
+<div class="row">
+  <div class="column">
+   <fieldset style="border:1px solid rgb(182, 66, 89);">
+     <legend style="text-align: center;font-size: 40px;color: crimson;"><i class="fas fa-address-book"></i></legend>
+   <form action="">
+     <input type="text" placeholder="NAME">
+     <br>
+     <input type="text" name="" id="" placeholder="EMAIL">
+     <br>
+    <textarea name="" id="" cols="30" rows="5" placeholder="MESSAGE"></textarea>
+     <br>
+   
+     <button>
+        <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+    
+    
+    </button>
+   </form>
+  </fieldset>
+  </div>
+  
+  <div class="column">
+    <div class="info">
+      
+      <a href="">
+        <h6><i class="fas fa-map-marker-alt"></i>PATIA,BBSR</h6>
+      </a>
+     
+      <br>
+      <a href="">
+        <h6><i class="fas fa-phone-alt"></i>CALL US</h6>
+      </a>
+    
+      <br>
+      <a href="">
+        <h6><i class="fas fa-envelope"></i>MAIL US</h6>
+      </a>
+     
+      <br>
+      <hr style="text-align: center;">
+    </div>
+ 
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/8893b709f5.js" crossorigin="anonymous"></script>
+<script>
+    var open = document.getElementById('hamburger');
+var changeIcon = true;
+var pp=document.getElementsByClassName("part1");
+
+open.addEventListener("click", function(){
+
+    var overlay = document.querySelector('.overlay');
+    var nav = document.querySelector('nav');
+    var icon = document.querySelector('.menu-toggle i');
+
+    overlay.classList.toggle("menu-open");
+    nav.classList.toggle("menu-open");
+
+    if (changeIcon) {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times");
+
+        changeIcon = false;
+    }
+    else {
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars");
+        changeIcon = true;
+    }
+});
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset:50,
+        duration:500
+    });
+  </script>
+
+</body>
+</html>
